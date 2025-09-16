@@ -10,34 +10,34 @@
   # Environment variables for build process
   NODE_VERSION = "18"
 
-# API routes for your backend functions
+# API routes for your backend functions - Fixed redirects
 [[redirects]]
   from = "/api/ask/chatgpt"
-  to = "/.netlify/functions/chat?model=chatgpt"
+  to = "/.netlify/functions/chat"
   status = 200
   method = "POST"
 
 [[redirects]]
   from = "/api/ask/gemini"
-  to = "/.netlify/functions/chat?model=gemini"
+  to = "/.netlify/functions/chat"
   status = 200
   method = "POST"
 
 [[redirects]]
   from = "/api/ask/grok"
-  to = "/.netlify/functions/chat?model=grok"
+  to = "/.netlify/functions/chat"
   status = 200
   method = "POST"
 
 [[redirects]]
   from = "/api/ask/perplexity"
-  to = "/.netlify/functions/chat?model=perplexity"
+  to = "/.netlify/functions/chat"
   status = 200
   method = "POST"
 
 [[redirects]]
   from = "/api/ask/deepseek"
-  to = "/.netlify/functions/chat?model=deepseek"
+  to = "/.netlify/functions/chat"
   status = 200
   method = "POST"
 
