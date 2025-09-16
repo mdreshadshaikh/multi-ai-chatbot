@@ -2,10 +2,10 @@ import fetch from "node-fetch";
 
 // Using your original free models - these should be free based on your research
 const MODEL_MAP = {
-  chatgpt: "openai/gpt-oss-20b:free",
-  gemini: "google/gemini-2.0-flash-exp:free", 
-  grok: "mistralai/mistral-small-3.2-24b-instruct:free",
-  perplexity: "qwen/qwen3-14b:free",
+  chatgpt: "openai/gpt-oss-120b:free",
+  gemini: "google/gemma-3-27b-it:free", 
+  grok: "meta-llama/llama-3.3-70b-instruct:free",
+  perplexity: "qwen/qwen3-235b-a22b:free",
   deepseek: "deepseek/deepseek-chat-v3.1:free"
 };
 
